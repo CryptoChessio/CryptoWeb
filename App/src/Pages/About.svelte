@@ -1,8 +1,8 @@
 <script>
   import { useNavigate, useLocation } from 'svelte-navigator'
-  import { Polygon } from '../Images/Icons/polygon.png'
-  import { DAI } from '../Images/Icons/DAI.png'
-  import { BAT } from '../Images/Icons/DAI.png'
+  const DAI = "../Images/Icons/DAI.png";
+  const MATIC = "../Images/Icons/polygon.png";
+  const BAT = "../Images/Icons/bat.png";
   const navigate = useNavigate()
   const location = useLocation()
 </script>
@@ -27,15 +27,15 @@
   <div>
     <h1 class="text-8xl">Tokenomics?</h1>
     <div
-      class="list-none text-center items-center justify-center flex shadow-xl">
+      class="list-none text-center items-center justify-center flex shadow-xl m-5">
       <div
         class="bg-gradient-to-r from-yellow-500 to-yellow-200 rounded-lg p-5 m-2">
         <img
           src={DAI}
           alt="DAI"
-          width={50}
-          height={50}
-          class="fill-white duration-700 ease-in-out hover:rotate-90" />
+          width={25}
+          height={25}
+          class="duration-700 ease-in-out hover:rotate-90 " />
         <p>
           <strong class="text-xl">DAI</strong>
           <br />
@@ -46,10 +46,10 @@
         class="bg-gradient-to-r from-indigo-400 to-indigo-800 rounded-lg p-5 m-2
         shadow-xl">
         <img
-          src={Polygon}
+          src={MATIC}
           alt="polygon"
-          width={50}
-          height={50}
+          width={25}
+          height={25}
           class="fill-white duration-700 ease-in-out hover:rotate-180" />
         <p>
           <strong class="text-xl">MATIC</strong>
@@ -59,13 +59,13 @@
         </p>
       </div>
       <div
-        class=" bg-gradient-to-r from-orange-500 to-violet-700 rounded-lg p-5
+        class="bg-gradient-to-r from-orange-500 to-violet-700 rounded-lg p-5
         m-2 shadow-xl">
         <img
-          src={bat}
+          src={BAT}
           alt="BAT"
-          width={50}
-          height={50}
+          width={25}
+          height={25}
           class="fill-white duration-700 ease-in-out hover:rotate-90" />
         <p>
           <strong class="text-xl">BAT</strong>

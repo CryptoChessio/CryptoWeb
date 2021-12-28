@@ -5,5 +5,5 @@
 </script>
 
 <main>
-  <p class="bg-yellow-200">YIMMIMYIMYIMYIMYIM</p>
+  <h1 class="text-center">GameModes</h1>
 </main>

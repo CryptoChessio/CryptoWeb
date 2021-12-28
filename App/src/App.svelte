@@ -5,7 +5,9 @@
   import About from './Pages/About.svelte'
   import Profile from './Pages/Profile.svelte'
   import LeaderBoard from './Pages/LeaderBoard.svelte'
+  import Home from './Pages/Home.svelte'
 
+  let profile = "../Images/Settings/settings.svg"
   async function login() {
     let user = Moralis.User.current()
     if (!user) {
@@ -23,32 +25,43 @@
       console.log(user)
     }
   }
-
+    
   onMount(() => {
-    // Moralis.initialize("XdXC23U4SiRFenvHOPrk5Mtp8arlfIbMtdAI0UpO"); // Application id from moralis.io
-    // Moralis.serverURL = "https://kqv1hqmigpho.usemoralis.com:2053/server"; //Server url from moralis.io
-
     const serverUrl = 'https://kqv1hqmigpho.usemoralis.com:2053/server'
     const appId = 'XdXC23U4SiRFenvHOPrk5Mtp8arlfIbMtdAI0UpO'
     Moralis.start({ serverUrl, appId })
 
-    login()
+    // login()
   })
+
+  function handleClick() {
+		alert('no more alerts')
+	}
 </script>
 
 <main>
-  <p>Hello</p>
-
   <Router>
     <header>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="play">Play</Link>
-        <Link to="about">About</Link>
-        <Link to="leaderBoard">LeaderBoard</Link>
-        <Link to="profile">Profile</Link>
+      <nav class="flex text-center items-center justify-center">
+        <Link to="/" class="m-3 duration-700 ease-in-out hover:text-yellow-400">Home</Link>
+        <Link to="play" class="m-3 duration-700 ease-in-out hover:text-yellow-400">Play</Link>
+        <Link to="about" class="m-3 duration-700 ease-in-out hover:text-yellow-400">About</Link>
+        <Link to="leaderBoard" class="m-3 duration-700 ease-in-out hover:text-yellow-400">LeaderBoard</Link>
+        <Link to="profile" class="m-3 duration-700 ease-in-out hover:rotate-180">
+          <img 
+          src={profile} 
+          alt="settings" width={28}
+          height={28}/>
+        </Link>
+        <button class="bg-transparent duration-700 ease-in-out hover:bg-yellow-500 text-gray-200 font-semibold hover:text-gray-800 py-2 px-4 border border-yellow-500 hover:border-transparent rounded" >
+          Login
+        </button>
       </nav>
     </header>
+    <hr class="m-5">
+    <Route path="/">
+      <Home />
+    </Route>
     <Route path="play">
       <Play />
     </Route>
