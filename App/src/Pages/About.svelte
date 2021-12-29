@@ -1,8 +1,8 @@
 <script>
   import { useNavigate, useLocation } from 'svelte-navigator'
-  const DAI = "../Images/Icons/DAI.png";
-  const MATIC = "../Images/Icons/polygon.png";
-  const BAT = "../Images/Icons/bat.png";
+  const DAI = '../Images/Icons/DAI.png'
+  const MATIC = '../Images/Icons/polygon.png'
+  const BAT = '../Images/Icons/bat.png'
   const navigate = useNavigate()
   const location = useLocation()
 </script>
@@ -27,7 +27,8 @@
   <div>
     <h1 class="text-8xl">Tokenomics?</h1>
     <div
-      class="list-none text-center items-center justify-center flex shadow-xl m-5">
+      class="list-none text-center items-center justify-center flex shadow-xl
+      m-5">
       <div
         class="bg-gradient-to-r from-yellow-500 to-yellow-200 rounded-lg p-5 m-2">
         <img
@@ -59,8 +60,8 @@
         </p>
       </div>
       <div
-        class="bg-gradient-to-r from-orange-500 to-violet-700 rounded-lg p-5
-        m-2 shadow-xl">
+        class="bg-gradient-to-r from-orange-500 to-violet-700 rounded-lg p-5 m-2
+        shadow-xl">
         <img
           src={BAT}
           alt="BAT"
