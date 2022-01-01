@@ -61,6 +61,6 @@ Arctesian
 <strong>Date: </strong>
 29/12/2021
 <br>
-<strong>Description: </strong>Got tailwind working like actually working and this is kinda shit
+<strong>Description: </strong>Got tailwind working like actually working and this is kinda shit and rm the old svelte "App" so only doing sveltekit
 
 <hr>
