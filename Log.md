@@ -43,11 +43,24 @@ Arctesian
 Arctesian
 <br>
 
-<strong>Time: </strong> 22:00 - 12:00
+<strong>Time: </strong> 22:00 - 00:00
 <br>
 <strong>Date: </strong>
 29/12/2021
 <br>
 <strong>Description: </strong>Init svelte kit for that server side rendering and init tailwind kinda its not working
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 22:00 - 23:00
+<br>
+<strong>Date: </strong>
+29/12/2021
+<br>
+<strong>Description: </strong>Got tailwind working like actually working and this is kinda shit
 
 <hr>

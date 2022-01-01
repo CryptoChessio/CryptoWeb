@@ -55,12 +55,12 @@
 		to our eth address
 		<highlight>0x2630ce05769Eb216a24Be24988D3872942aeAe3d</highlight>
 	</p>
-	<div>
+	<div class="flex ">
 		<a href="https://github.com/CryptoChessio" target="_blank">
-			<img class="logo" src={github} alt="GitHub" />
+			<img class="logo m-3" src={github} alt="GitHub" />
 		</a>
 		<a href="https://discord.gg/j8GTGWGAXe" target="_blank">
-			<img class="logo" src={discord} alt="GitHub" />
+			<img class="logo m-3" src={discord} alt="GitHub" />
 		</a>
 	</div>
 </footer>
