@@ -56,11 +56,24 @@ Arctesian
 Arctesian
 <br>
 
-<strong>Time: </strong> 22:00 - 23:00
+<strong>Time: </strong> 01:00 - 02:00
 <br>
 <strong>Date: </strong>
-29/12/2021
+30/12/2021
 <br>
 <strong>Description: </strong>Got tailwind working like actually working and this is kinda shit and rm the old svelte "App" so only doing sveltekit
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 20:00 - 20:30
+<br>
+<strong>Date: </strong>
+2/1/2022
+<br>
+<strong>Description: </strong> Short one just init moralis and put some boiler plate functions in, have not messed with global vars or whatever redux sveltekit has but should be fun
 
 <hr>
