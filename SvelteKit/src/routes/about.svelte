@@ -51,13 +51,14 @@
 			<div class="list-none text-center items-center justify-center flex">
 				<div
 					class="bg-gradient-to-r from-yellow-500 to-yellow-200 rounded-lg p-5 m-2 duration-700
-					ease-in-out hover:-rotate-3 hover:scale-110">
+					ease-in-out hover:-rotate-3 hover:scale-110 h-48"
+				>
 					<img
 						src={DAI}
 						alt="DAI"
-						width={25}
-						height={25}
-						class="duration-700 ease-in-out hover:rotate-90 " />
+						width={50}
+						class="m-auto duration-700 ease-in-out hover:rotate-90 "
+					/>
 					<p>
 						<strong class="text-xl">DAI</strong>
 						<br />
@@ -66,29 +67,26 @@
 				</div>
 				<div
 					class="bg-gradient-to-r from-indigo-400 to-indigo-800 rounded-lg p-5 m-2 shadow-xl
-					duration-700 ease-in-out hover:scale-110">
+					duration-700 ease-in-out hover:scale-110 h-48"
+				>
 					<img
 						src={MATIC}
 						alt="polygon"
-						width={25}
-						height={25}
-						class="fill-white duration-700 ease-in-out hover:rotate-180" />
+						width={50}
+						class="m-auto fill-white duration-700 ease-in-out hover:rotate-180"
+					/>
 					<p>
 						<strong class="text-xl">MATIC</strong>
 						<br />
-						MATIC (Polygon) is the utility token for the Matic network a layer 2 scaling protocol
-						for the ethereum blockchain.
+						MATIC (Polygon) is the utility token for the Matic network a layer 2 scaling protocol for
+						the ethereum blockchain.
 					</p>
 				</div>
 				<div
 					class="bg-gradient-to-r from-orange-500 to-violet-700 rounded-lg p-5 m-2 shadow-xl
-					duration-700 ease-in-out hover:rotate-3 hover:scale-110">
-					<img
-						src={BAT}
-						alt="BAT"
-						width={25}
-						height={25}
-						class="fill-white duration-700 ease-in-out hover:skew-x-6" />
+					duration-700 ease-in-out hover:rotate-3 hover:scale-110 h-48"
+				>
+					<img src={BAT} alt="BAT" width={50} class="m-auto fill-white" />
 					<p>
 						<strong class="text-xl">BAT</strong>
 						<br />

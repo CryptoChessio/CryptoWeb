@@ -3,6 +3,41 @@
 	import logo from './svelte-logo.svg';
 </script>
 
+<header>
+	<div class="corner" />
+
+	<nav>
+		<svg viewBox="0 0 2 3" aria-hidden="true">
+			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
+		</svg>
+		<ul>
+			<li class:active={$page.path === '/'}>
+				<a sveltekit:prefetch href="/">Home</a>
+			</li>
+			<li class:active={$page.path === '/Play'}>
+				<a sveltekit:prefetch href="/Play">Play</a>
+			</li>
+			<li class:active={$page.path === '/LeaderBoard'}>
+				<a sveltekit:prefetch href="/LeaderBoard">Leaderboard</a>
+			</li>
+			<li class:active={$page.path === '/about'}>
+				<a sveltekit:prefetch href="/about">About</a>
+			</li>
+			<li class:active={$page.path === '/Profile'}>
+				<a sveltekit:prefetch href="/Profile">Profile</a>
+			</li>
+			<li class:active={$page.path === '/store'}>
+				<a sveltekit:prefetch href="/store">store</a>
+			</li>
+		</ul>
+		<svg viewBox="0 0 2 3" aria-hidden="true">
+			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
+		</svg>
+	</nav>
+
+	<div class="corner" />
+</header>
+
 <style>
 	header {
 		display: flex;
@@ -31,17 +66,19 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: #502064;
+		--background: rgb(63, 94, 251);
+		--background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 	}
 
 	svg {
 		width: 2em;
 		height: 3em;
 		display: block;
+		transition: all 0.35s ease-in-out;
 	}
 
 	path {
-		fill: var(--background);
+		fill: rgba(252, 70, 107, 1);
 	}
 
 	ul {
@@ -85,42 +122,11 @@
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
-		transition: color 0.2s linear;
+		transition: all 0.3s ease-in-out;
 	}
 
 	a:hover {
-		color: #8267be;
+		color: #9e9e9e;
+		font-size: 1rem;
 	}
 </style>
-
-<header>
-	<div class="corner" />
-
-	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
-		<ul>
-			<li class:active={$page.path === '/'}>
-				<a sveltekit:prefetch href="/">Home</a>
-			</li>
-			<li class:active={$page.path === '/Play'}>
-				<a sveltekit:prefetch href="/Play">Play</a>
-			</li>
-			<li class:active={$page.path === '/LeaderBoard'}>
-				<a sveltekit:prefetch href="/LeaderBoard">Leaderboard</a>
-			</li>
-			<li class:active={$page.path === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<li class:active={$page.path === '/Profile'}>
-				<a sveltekit:prefetch href="/Profile">Profile</a>
-			</li>
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav>
-
-	<div class="corner" />
-</header>
