@@ -1,74 +1,47 @@
 <script>
 	import { onMount } from 'svelte';
-
-	async function login() {
-		let user = Moralis.User.current();
-
-		if (!user) {
-			user = await Moralis.authenticate({ signingMessage: 'Log in using Moralis' })
-				.then(function (user) {
-					console.log('logged in user:', user);
-					console.log(user.get('ethAddress'));
-				})
-				.catch(function (error) {
-					console.log(error);
-				});
-		} else {
-			console.log(user);
-		}
-	}
-
-	onMount(() => {
-		const serverUrl = 'https://kqv1hqmigpho.usemoralis.com:2053/server';
-		const appId = 'XdXC23U4SiRFenvHOPrk5Mtp8arlfIbMtdAI0UpO';
+	import { serverUrl, appId } from '$lib/env';
+	import { login, logOut } from '$lib/MoralisUtil';
+	import { currentUser } from '../stores';
+	onMount(async () => {
 		Moralis.start({ serverUrl, appId });
-
-		login();
-		console.log(Moralis.User.current());
+		let user = Moralis.User.current();
+		currentUser.set(user);
 	});
-
-	function logout() {
-		Moralis.logout();
-	}
-
-	function getUser() {
-		const user = Moralis.User.current();
-		console.log(user);
-	}
-
-	function getUserData() {
-		const user = Moralis.User.current();
-		const data = user.get('data');
-		console.log(data);
-	}
-
-	function getUserEthAddress() {
-		const user = Moralis.User.current();
-		const ethAddress = user.get('ethAddress');
-		console.log(ethAddress);
-	}
-
-	function getUserEthBalance() {
-		const user = Moralis.User.current();
-		const ethBalance = user.get('ethBalance');
-		console.log(ethBalance);
-	}
-
-	function getUserEthBalanceInWei() {
-		const user = Moralis.User.current();
-		const ethBalanceInWei = user.get('ethBalanceInWei');
-		console.log(ethBalanceInWei);
-	}
-
-	function getUserEthBalanceInUsd() {
-		const user = Moralis.User.current();
-		const ethBalanceInUsd = user.get('ethBalanceInUsd');
-		console.log(ethBalanceInUsd);
-	}
 </script>
 
-<img src="https://randomuser.me/api/portraits/lego/2.jpg" alt="Moralis" class="m-auto" />
+<style>
+	#home {
+		margin: 48px 0;
+	}
+</style>
 
-<h1>{user} profile img</h1>
+<svelte:head>
+	<title>Profile</title>
+</svelte:head>
 
-<p />
+<div id="home">
+	{#if $currentUser}
+		<p style="color: green;">Logged in successfully!</p>
+		<div>
+			<span>Username:</span>
+			<span>{$currentUser.get('username')}</span>
+		</div>
+		<div>
+			<span>Address:</span>
+			<span>{$currentUser.get('ethAddress')}</span>
+		</div>
+		<div>
+			<span>Created At:</span>
+			<span>{$currentUser.get('createdAt')}</span>
+		</div>
+		<div>
+			<span>Updated At:</span>
+			<span>{$currentUser.get('updatedAt')}</span>
+		</div>
+		<button id="btn-logout" on:click={logOut}>Logout</button>
+	{:else}
+		<p>Please login.</p>
+		<button id="btn-login" on:click={login}>Login</button>
+	{/if}
+</div>

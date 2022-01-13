@@ -77,7 +77,16 @@ Arctesian
 <strong>Description: </strong> Short one just init moralis and put some boiler plate functions in, have not messed with global vars or whatever redux sveltekit has but should be fun
 
 <hr>
-hello Kaitlyn
 
+<strong>Name: </strong>
+Arctesian
+<br>
 
-meow
+<strong>Time: </strong> 13:20 -
+<br>
+<strong>Date: </strong>
+13/1/2022
+<br>
+<strong>Description: </strong> Short one just init moralis and put some boiler plate functions in, have not messed with global vars or whatever redux sveltekit has but should be fun
+
+<hr>
