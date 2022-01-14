@@ -10,6 +10,8 @@ Cryptochess website
 ### In Progress
 
 - [ ] Create Text
+- [ ] IPFS db
+- [ ] IPFS hosting 
 - [ ] Init Tailwind
 
 ### Done ✓

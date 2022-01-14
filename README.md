@@ -2,6 +2,10 @@
 
 I am going to try this again using svelte because I love svelte and fuck redux
 
+Will be using IPFS for db becuase dApp things will probs IPFS host as well 
+
+Will test out first then if that dosn't work will go with a tradiotonal REDUX store
+
 <hr>
 
 If you would like to contribute or have question about the project please message me
