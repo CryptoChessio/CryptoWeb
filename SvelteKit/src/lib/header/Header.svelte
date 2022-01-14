@@ -3,48 +3,6 @@
 </script>
 
 <style>
-	header {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	}
-
-	nav {
-		display: flex;
-		justify-content: center;
-		--background: rgb(63, 94, 251);
-		--background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-	}
-
-	svg {
-		width: 2em;
-		height: 3em;
-		display: block;
-		transition: all 0.35s ease-in-out;
-	}
-
-	path {
-		fill: rgba(252, 70, 107, 1);
-	}
-
 	ul {
 		position: relative;
 		padding: 0;
@@ -99,9 +57,7 @@
 	<div class="corner" />
 
 	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
+
 		<ul>
 			<li class:active={$page.path === '/'}>
 				<a sveltekit:prefetch href="/">Home</a>
@@ -122,9 +78,6 @@
 				<a sveltekit:prefetch href="/store">store</a>
 			</li>
 		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
 	</nav>
 
 	<div class="corner" />

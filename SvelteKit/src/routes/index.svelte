@@ -21,6 +21,6 @@
 </svelte:head>
 
 <section>
-	<h1>Home</h1>
+	<h1>Chess for the masses</h1>
 
 </section>

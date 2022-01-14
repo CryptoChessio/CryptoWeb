@@ -22,26 +22,41 @@
 
 <div id="home">
 	{#if $currentUser}
-		<p style="color: green;">Logged in successfully!</p>
+		<!-- <div class="text-center text-2xl">
+			<strong style="color: green; text-align: center; ">Logged in successfully!</strong>
+		</div>
+		<br /> -->
 		<div>
-			<span>Username:</span>
+			<strong class="text-teal-300">Username:</strong>
 			<span>{$currentUser.get('username')}</span>
 		</div>
 		<div>
-			<span>Address:</span>
+			<strong class="text-teal-300">Address:</strong>
 			<span>{$currentUser.get('ethAddress')}</span>
 		</div>
 		<div>
-			<span>Created At:</span>
+			<strong class="text-green-300">Created At:</strong>
 			<span>{$currentUser.get('createdAt')}</span>
 		</div>
 		<div>
-			<span>Updated At:</span>
+			<strong class="text-green-300">Updated At:</strong>
 			<span>{$currentUser.get('updatedAt')}</span>
 		</div>
-		<button id="btn-logout" on:click={logOut}>Logout</button>
+		<button
+			class="my-8 bg-purple-500 duration-700 ease-in-out hover:bg-purple-700 text-white text-center
+			py-2 px-4 rounded"
+			id="btn-logout"
+			on:click={logOut}>
+			Logout
+		</button>
 	{:else}
 		<p>Please login.</p>
-		<button id="btn-login" on:click={login}>Login</button>
+		<button
+			class="m-auto bg-purple-500 duration-700 ease-in-out hover:bg-purple-700 text-white
+			text-center py-2 px-4 rounded"
+			id="btn-login"
+			on:click={login}>
+			Login
+		</button>
 	{/if}
 </div>
