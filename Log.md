@@ -87,6 +87,21 @@ Arctesian
 <strong>Date: </strong>
 13/1/2022
 <br>
-<strong>Description: </strong> Short one just init moralis and put some boiler plate functions in, have not messed with global vars or whatever redux sveltekit has but should be fun
+<strong>Description: </strong> polish
 
+<hr>
+
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 22:10 - 24:00
+<br>
+<strong>Date: </strong>
+14/1/2022
+<br>
+<strong>Description: </strong> polish
 <hr>
