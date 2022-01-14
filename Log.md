@@ -91,7 +91,6 @@ Arctesian
 
 <hr>
 
-
 <hr>
 
 <strong>Name: </strong>
@@ -103,5 +102,6 @@ Arctesian
 <strong>Date: </strong>
 14/1/2022
 <br>
-<strong>Description: </strong> polish
+<strong>Description: </strong> update img and profile polish
+
 <hr>
