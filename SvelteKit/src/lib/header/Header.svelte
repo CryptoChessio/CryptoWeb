@@ -47,9 +47,21 @@
 		transition: all 0.3s ease-in-out;
 	}
 
-	a:hover {
+	.link:hover {
 		color: #ffffff;
 		font-size: 1rem;
+		background-color: rgb(57, 96, 131, 0.5);
+		border-radius: 3rem;
+	}
+
+	nav {
+		background: var(--background);
+		background-size: contain;
+		transition: all 0.3s ease-in-out;
+		border-bottom: #a0a0a0 solid 4px;
+		height: 10vh;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 </style>
 
@@ -60,22 +72,22 @@
 
 		<ul>
 			<li class:active={$page.path === '/'}>
-				<a sveltekit:prefetch href="/">Home</a>
+				<a class="link" sveltekit:prefetch href="/">Home</a>
 			</li>
 			<li class:active={$page.path === '/Play'}>
-				<a sveltekit:prefetch href="/Play">Play</a>
+				<a class="link" sveltekit:prefetch href="/Play">Play</a>
 			</li>
 			<li class:active={$page.path === '/LeaderBoard'}>
-				<a sveltekit:prefetch href="/LeaderBoard">Leaderboard</a>
+				<a class="link" sveltekit:prefetch href="/LeaderBoard">Leaderboard</a>
 			</li>
 			<li class:active={$page.path === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
+				<a class="link" sveltekit:prefetch href="/about">About</a>
 			</li>
 			<li class:active={$page.path === '/Profile'}>
-				<a sveltekit:prefetch href="/Profile">Profile</a>
+				<a class="link" sveltekit:prefetch href="/Profile">Profile</a>
 			</li>
 			<li class:active={$page.path === '/store'}>
-				<a sveltekit:prefetch href="/store">store</a>
+				<a class="link" sveltekit:prefetch href="/store">store</a>
 			</li>
 		</ul>
 	</nav>

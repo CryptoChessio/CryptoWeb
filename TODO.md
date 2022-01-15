@@ -9,12 +9,17 @@ Cryptochess website
 
 ### In Progress
 
-- [ ] Create Text
-- [ ] IPFS db
-- [ ] IPFS hosting 
-- [ ] Init Tailwind
+- [ ] REDIS db
+- [ ] some form of hosting
+- [ ] Clean About
+- [ ] Clean Play
+- [ ] Clean Index
+- [ ] Clean LeaderBoard
+- [ ] Clean Profile
+- [ ] Create Store
 
 ### Done ✓
 
 - [x] Init Svelte Kit
 - [x] Init TODO.md
+- [x] Create Text

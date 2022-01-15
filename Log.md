@@ -111,7 +111,7 @@ Arctesian
 <strong>Time: </strong> 10:00 - 11:00
 <br>
 <strong>Date: </strong>
-14/1/2022
+15/1/2022
 <br>
 <strong>Description: </strong> added popup
 
@@ -126,8 +126,21 @@ Arctesian
 <strong>Time: </strong> 13:40 - 14:00
 <br>
 <strong>Date: </strong>
-14/1/2022
+15/1/2022
 <br>
 <strong>Description: </strong> added imgs to index page
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 22:00 - 24:30
+<br>
+<strong>Date: </strong>
+15/1/2022
+<br>
+<strong>Description: </strong> major overhaul of all pages and got modals working
 
 <hr>
