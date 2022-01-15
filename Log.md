@@ -89,8 +89,6 @@ Arctesian
 <br>
 <strong>Description: </strong> polish
 
-
-
 <hr>
 
 <strong>Name: </strong>
@@ -116,5 +114,20 @@ Arctesian
 14/1/2022
 <br>
 <strong>Description: </strong> added popup
+
+<hr>
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 13:40 - 14:00
+<br>
+<strong>Date: </strong>
+14/1/2022
+<br>
+<strong>Description: </strong> added imgs to index page
 
 <hr>
