@@ -26,37 +26,43 @@
 			<strong style="color: green; text-align: center; ">Logged in successfully!</strong>
 		</div>
 		<br /> -->
-		<div>
-			<strong class="text-teal-300">Username:</strong>
-			<span>{$currentUser.get('username')}</span>
+		<div
+			class="rounded-xl m-auto flex-col p-3 w-4/6 border border-double border-4 flex text-center
+			items-center bg-gray-800 justify-center">
+			<table>
+				<tr>
+					<td>
+						<img
+							class="rounded-full h-16 w-16 m-3"
+							src={$currentUser.avatar}
+							alt={$currentUser.name} />
+					</td>
+					<td class="m-3">
+						<div class="text-xl">{$currentUser.get('username')}</div>
+						<div class="text-sm">{$currentUser.get('ethAddress')}</div>
+					</td>
+				</tr>
+			</table>
+			<button
+				class="my-8 bg-purple-500 duration-700 ease-in-out hover:bg-purple-700 text-white
+				text-center py-2 px-4 rounded"
+				id="btn-logout"
+				on:click={logOut}>
+				Logout
+			</button>
 		</div>
-		<div>
-			<strong class="text-teal-300">Address:</strong>
-			<span>{$currentUser.get('ethAddress')}</span>
-		</div>
-		<div>
-			<strong class="text-green-300">Created At:</strong>
-			<span>{$currentUser.get('createdAt')}</span>
-		</div>
-		<div>
-			<strong class="text-green-300">Updated At:</strong>
-			<span>{$currentUser.get('updatedAt')}</span>
-		</div>
-		<button
-			class="my-8 bg-purple-500 duration-700 ease-in-out hover:bg-purple-700 text-white text-center
-			py-2 px-4 rounded"
-			id="btn-logout"
-			on:click={logOut}>
-			Logout
-		</button>
 	{:else}
-		<p>Please login.</p>
-		<button
-			class="m-auto bg-purple-500 duration-700 ease-in-out hover:bg-purple-700 text-white
-			text-center py-2 px-4 rounded"
-			id="btn-login"
-			on:click={login}>
-			Login
-		</button>
+		<div
+			class="rounded-xl m-auto flex-col p-3 w-2/6 border border-emerald-300 border-double border-4
+			flex text-center items-center bg-blue-400 justify-center">
+			<p class="m-3">Please login.</p>
+			<button
+				class="bg-blue-500 duration-700 ease-in-out hover:bg-blue-700 text-white text-center py-2
+				px-4 rounded"
+				id="btn-login"
+				on:click={login}>
+				Login
+			</button>
+		</div>
 	{/if}
 </div>

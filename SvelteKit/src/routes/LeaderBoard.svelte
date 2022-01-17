@@ -35,25 +35,58 @@
 	th:nth-child(4) {
 		background-color: #724caf;
 	}
-	.one {
-		background-color: #fcff46;
+	th:nth-child(5) {
+		background-color: #4caf6a;
+	}
+	table th,
+	table td {
+		border: none !important;
+	}
+	table th:first-child {
+		-moz-border-radius: 5px 0 0 0 !important;
+	}
+	table th:last-child {
+		-moz-border-radius: 0 5px 0 0 !important;
+	}
+	table tr:last-child td:first-child {
+		-moz-border-radius: 0 0 0 5px !important;
+	}
+	table tr:last-child td:last-child {
+		-moz-border-radius: 0 0 5px 0 !important;
+	}
+	table tr:hover td {
+		background-color: rgba(119, 119, 119, 0.103) !important;
 	}
 </style>
 
 <svelte:head>
-	<title>LeaderBoard</title>
+	<title>keaderBoard</title>
 </svelte:head>
 <main>
 	<div class="p-3">
 		<h1 class="text-2xl m-3 tracking-wide">The Meritocratic Standings</h1>
 		<div class="">
-			<table class="">
-				<tr class="one">
+			<table class="table-fixed bg-gray-800 text-center ">
+				<tr class="">
 					<th>Rank</th>
 					<th>Name</th>
 					<th>Played</th>
 					<th>Win ( % )</th>
 					<th>Earned (USD)</th>
+				</tr>
+				<tr class="">
+					<td>1</td>
+					<td>{name}</td>
+					<td>{played}</td>
+					<td>{win}%</td>
+					<td>${earned}</td>
+				</tr>
+				<tr class="">
+					<td>2</td>
+					<td>{name}</td>
+					<td>{played}</td>
+					<td>{win}%</td>
+					<td>${earned}</td>
 				</tr>
 				<tr class="">
 					<td>1</td>

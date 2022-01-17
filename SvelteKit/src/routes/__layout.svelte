@@ -53,10 +53,12 @@
 		<a href="https://github.com/CryptoChessio" target="_blank">
 			<img class="logo m-3 duration-700 ease-in-out hover:scale-110" src={github} alt="GitHub" />
 		</a>
-		<a href="https://discord.gg/j8GTGWGAXe" target="_blank">
+		<a href="https://discord.gg/kx8unwWuUp" target="_blank">
 			<img class="logo m-3 duration-700 ease-in-out hover:scale-110" src={discord} alt="GitHub" />
 		</a>
-		<a href="https://discord.gg/j8GTGWGAXe" target="_blank">
+		<a
+			href="https://signal.group/#CjQKIHHvjy7Mj5CcSk-DyG0fwxY1UqSX4E576W8HfFCEx3zVEhDYVcXReCvIurj-aCLaHl1v"
+			target="_blank">
 			<img class="logo m-3 duration-700 ease-in-out hover:scale-110" src={signal} alt="Signal" />
 		</a>
 		<a href="https://t.me/+dvZvBw7rO71jNzll" target="_blank">

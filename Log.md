@@ -144,3 +144,16 @@ Arctesian
 <strong>Description: </strong> major overhaul of all pages and got modals working
 
 <hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 11:00 - 15:11
+<br>
+<strong>Date: </strong>
+17/1/2022
+<br>
+<strong>Description: </strong> Added open sea and fonts also updating login page as well as changed leaderboard page. Also made leaderboard page. Also today was the day I inited the dao and discord servers
+
+<hr>
