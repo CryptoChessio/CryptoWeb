@@ -60,7 +60,7 @@
 </style>
 
 <svelte:head>
-	<title>keaderBoard</title>
+	<title>LeaderBoard</title>
 </svelte:head>
 <main>
 	<div class="p-3">
