@@ -6,6 +6,7 @@ Cryptochess website
 ### Todo
 
 - [ ] Port WA over from unity
+- [ ] Make some backgrounds for everything
 
 ### In Progress
 

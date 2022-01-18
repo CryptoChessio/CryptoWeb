@@ -157,3 +157,16 @@ Arctesian
 <strong>Description: </strong> Added open sea and fonts also updating login page as well as changed leaderboard page. Also made leaderboard page. Also today was the day I inited the dao and discord servers
 
 <hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 18:30 - 19:30
+<br>
+<strong>Date: </strong>
+18/1/2022
+<br>
+<strong>Description: </strong> Clean modal page still some weird flashbang when opening. I also think the main problem of this is just background so need women to fix that for me.
+
+<hr>
