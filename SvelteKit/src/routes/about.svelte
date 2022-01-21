@@ -64,7 +64,7 @@
 </style>
 
 <svelte:head>
-	<title>about</title>
+	<title>About</title>
 </svelte:head>
 <div class="content">
 	<main>

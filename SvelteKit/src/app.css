@@ -2,6 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
 
 @layer base {
 	h1,
@@ -31,6 +34,7 @@
 body {
 	min-height: 100vh;
 	margin: 0;
+	font-family: 'Nova Oval', cursive;
 	color: var(--text-color);
 	background-color: var(--primary-color);
 	background: linear-gradient(

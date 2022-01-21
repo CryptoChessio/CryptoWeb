@@ -39,8 +39,8 @@
 		align-items: center;
 		padding: 0 1em;
 		color: var(--heading-color);
-		font-weight: 700;
-		font-size: 0.8rem;
+		font-weight: 900;
+		font-size: 1.4rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -48,10 +48,7 @@
 	}
 
 	.link:hover {
-		color: #ffffff;
-		font-size: 1rem;
-		background-color: rgb(57, 96, 131, 0.5);
-		border-radius: 3rem;
+		color: #ffd519;
 	}
 
 	nav {
@@ -74,17 +71,17 @@
 			<li class:active={$page.path === '/'}>
 				<a class="link" sveltekit:prefetch href="/">Home</a>
 			</li>
-			<li class:active={$page.path === '/Play'}>
-				<a class="link" sveltekit:prefetch href="/Play">Play</a>
+			<li class:active={$page.path === '/play'}>
+				<a class="link" sveltekit:prefetch href="/play">play</a>
 			</li>
-			<li class:active={$page.path === '/LeaderBoard'}>
-				<a class="link" sveltekit:prefetch href="/LeaderBoard">Leaderboard</a>
+			<li class:active={$page.path === '/leaderBoard'}>
+				<a class="link" sveltekit:prefetch href="/leaderBoard">leaderboard</a>
 			</li>
 			<li class:active={$page.path === '/about'}>
-				<a class="link" sveltekit:prefetch href="/about">About</a>
+				<a class="link" sveltekit:prefetch href="/about">about</a>
 			</li>
-			<li class:active={$page.path === '/Profile'}>
-				<a class="link" sveltekit:prefetch href="/Profile">Profile</a>
+			<li class:active={$page.path === '/profile'}>
+				<a class="link" sveltekit:prefetch href="/profile">profile</a>
 			</li>
 			<li class:active={$page.path === '/store'}>
 				<a class="link" sveltekit:prefetch href="/store">store</a>
