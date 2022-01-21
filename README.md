@@ -6,6 +6,7 @@ Will be using IPFS for db becuase dApp things will probs IPFS host as well
 
 Will test out first then if that dosn't work will go with a tradiotonal REDUX store
 
+prpbs cen 
 <hr>
 
 If you would like to contribute or have question about the project please message me
