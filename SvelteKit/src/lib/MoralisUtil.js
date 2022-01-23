@@ -1,28 +1,22 @@
-import { currentUser } from '../stores';
-
+import { ethers } from 'ethers';
 /**
  * Ethereum, BSC, and Polygon Login
  * @param {string} provider the provider used when login. "metamask", "walletconnect"
  */
-export async function login(provider="metamask") {
-    let user = Moralis.User.current();
-    if (!user) {
-        user = await Moralis.authenticate({ provider, signingMessage: "Log in using Moralis" })
-            .then(user => {
-                console.log("logged in user: ", user);
-                currentUser.set(user);
-            })
-            .catch(error => {
-                console.log(error);
-            });
-    }
+export async function login() {
+	console.log('login');
+	const provider = new ethers.providers.Web3Provider(window.ethereum, 'any');
+	// Prompt user for account connections
+	await provider.send('eth_requestAccounts', []);
+	const signer = provider.getSigner();
+	console.log('Account:', await signer.getAddress());
 }
 
 /**
  * Logout
  */
 export async function logOut() {
-    await Moralis.User.logOut();
-    console.log("logged out");
-    currentUser.set(null);
+	await Moralis.User.logOut();
+	console.log('logged out');
+	currentUser.set(null);
 }

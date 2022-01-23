@@ -4,9 +4,7 @@
 	import { login, logOut } from '$lib/MoralisUtil';
 	import { currentUser } from '../stores';
 	onMount(async () => {
-		Moralis.start({ serverUrl, appId });
-		let user = Moralis.User.current();
-		currentUser.set(user);
+		console.log('social login');
 	});
 </script>
 
