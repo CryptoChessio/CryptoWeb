@@ -5,9 +5,15 @@
 <script>
 	import hero from '../Assets/Pages/hero-bg.jpeg';
 	import chessB from '../Assets/Pages/chessB.png';
+	let y = 0;
+	//if y is more than 0, then scroll to 25
+	$: console.log(y);
+	if (y < 80) {
+		y = 80;
+	}
 </script>
 
-<style>
+<style lang="scss">
 	@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
 
@@ -20,10 +26,10 @@
 	}
 
 	h1 {
-		font-family: 'Monoton', cursive;
+		font-family: 'Inter', sans-serif;
 	}
 	p {
-		font-family: 'Nova Oval', cursive;
+		font-family: 'Inter', sans-serif;
 	}
 	.hero {
 		width: 100%;
@@ -44,19 +50,68 @@
 		z-index: -1;
 		opacity: 0.6;
 	}
+
+	.text-box {
+		font-family: 'Inter', sans-serif;
+		background-color: #fff;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.h1 {
+		font-size: 9vw;
+		font-weight: 900;
+		background-color: #000;
+		color: #fff;
+		display: block;
+		padding: 0.5em;
+		font-family: 'Inter', sans-serif;
+	}
+
+	h1:nth-child(2) {
+		position: absolute;
+		background-color: #fff;
+		color: #000;
+		clip-path: inset(
+			-1% -1% 50% -1%
+		); // Added the negative values to prevent icky "bleed" in Chrome
+	}
+
+	p {
+		font-size: 2vw;
+		font-weight: 900;
+		margin-top: 1em;
+		text-align: center;
+	}
+	.container {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 </style>
 
+<svelte:window bind:scrollY={y} />
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
 <section>
-	<div class="hero text-center items-center justify-center flex">
-		<img src={hero} class="hero-img hue-rotate-60 blur-sm saturate-200" alt="hero-bg" />
-		<div>
-			<h1 class="text-6xl subpixel-antialiased text-red-300 ">Chess for the crypto inclined</h1>
-			<p>Combine your chess skills and your crypto to earn</p>
+	<div class="hero text-center items-center justify-center flex container ">
+		<div class="text-box">
+			<h1 class="h1">CRYPTOCHESS</h1>
+			<h1 class="h1">CRYPTOCHESS</h1>
 		</div>
+		<p>An online chess game for crypto enthusiasts</p>
 	</div>
 
 	<div class="hero text-center items-center justify-center flex">

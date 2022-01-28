@@ -64,7 +64,7 @@
 </svelte:head>
 <main>
 	<div class="p-3">
-		<h1 class="text-2xl m-3 tracking-wide">The Meritocratic Standings</h1>
+		<h1 class="text-2xl m-3 text-center tracking-wide">The Meritocratic Standings</h1>
 		<div class="">
 			<table class="table-fixed bg-gray-800 text-center ">
 				<tr class="">

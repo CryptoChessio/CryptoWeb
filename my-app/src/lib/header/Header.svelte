@@ -68,22 +68,22 @@
 	<nav>
 
 		<ul>
-			<li class:active={$page.path === '/'}>
+			<li class:active={$page.url.pathname === '/'}>
 				<a class="link" sveltekit:prefetch href="/">Home</a>
 			</li>
-			<li class:active={$page.path === '/play'}>
+			<li class:active={$page.url.pathname === '/play'}>
 				<a class="link" sveltekit:prefetch href="/play">play</a>
 			</li>
-			<li class:active={$page.path === '/leaderBoard'}>
+			<li class:active={$page.url.pathname === '/leaderBoard'}>
 				<a class="link" sveltekit:prefetch href="/leaderBoard">leaderboard</a>
 			</li>
-			<li class:active={$page.path === '/about'}>
+			<li class:active={$page.url.pathname === '/about'}>
 				<a class="link" sveltekit:prefetch href="/about">about</a>
 			</li>
-			<li class:active={$page.path === '/profile'}>
+			<li class:active={$page.url.pathname === '/profile'}>
 				<a class="link" sveltekit:prefetch href="/profile">profile</a>
 			</li>
-			<li class:active={$page.path === '/store'}>
+			<li class:active={$page.url.pathname === '/store'}>
 				<a class="link" sveltekit:prefetch href="/store">store</a>
 			</li>
 		</ul>

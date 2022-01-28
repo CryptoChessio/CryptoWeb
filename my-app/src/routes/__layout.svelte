@@ -50,9 +50,6 @@
 	</p> -->
 	<div class="flex text-center items-center justify-center">
 		<hr />
-		<a href="https://github.com/CryptoChessio" target="_blank">
-			<img class="logo m-3 duration-700 ease-in-out hover:scale-110" src={github} alt="GitHub" />
-		</a>
 		<a href="https://discord.gg/kx8unwWuUp" target="_blank">
 			<img class="logo m-3 duration-700 ease-in-out hover:scale-110" src={discord} alt="GitHub" />
 		</a>
@@ -66,6 +63,9 @@
 				class="logo m-3 duration-700 ease-in-out hover:scale-110"
 				src={telegram}
 				alt="Telegram" />
+		</a>
+		<a href="https://github.com/CryptoChessio" target="_blank">
+			<img class="logo m-3 duration-700 ease-in-out hover:scale-110" src={github} alt="GitHub" />
 		</a>
 	</div>
 </footer>

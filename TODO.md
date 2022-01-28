@@ -19,12 +19,13 @@ Cryptochess website
 
 ### Done ✓
 
-- [x] Clean Profile
-- [x] Create Store
-- [x] Clean LeaderBoard
-- [x] Init Svelte Kit
-- [x] Init TODO.md
-- [x] Create Text
-- [x] Fonts
-- [x] OpenSea connection
-- [x] contributor/free stuff page
+- [x] ~~lean Profile~~
+- [x] ~~Create Store~~
+- [x] ~~Clean LeaderBoard~~
+- [x] ~~Init Svelte Kit~~
+- [x] ~~Init TODO.md~~
+- [x] ~~Create Text~~
+- [x] ~~Fonts~~
+- [x] ~~OpenSea connection~~
+- [x] ~~contributor/free stuff page~~
+- [x] ~~Contribute~~

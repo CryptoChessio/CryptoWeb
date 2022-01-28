@@ -170,3 +170,16 @@ Arctesian
 <strong>Description: </strong> Clean modal page still some weird flashbang when opening. I also think the main problem of this is just background so need women to fix that for me.
 
 <hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 17:00 - 18:00
+<br>
+<strong>Date: </strong>
+28/1/2022
+<br>
+<strong>Description: </strong> Cleaning index page was my goal but I kinda just had to fix ts errors and set up the ts server
+
+<hr>

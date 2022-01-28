@@ -1,5 +1,5 @@
 <script>
-	import { user } from '../lib/contributor';
+	import { user } from '$lib/contributor';
 
 	function handleOnSubmit() {
 		alert('Submitted');
