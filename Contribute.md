@@ -52,7 +52,8 @@ and open the file up in vs code in your code editor but if your vs code
 code .
 ```
 
-then after that please put your name into Log.md and the time you started and pick a task from todo.md. After that
+then after that please put your name into Log.md and the time you started and pick a task from todo.md. Please follow the format and add your goal for the thing. It sounds a little cringe but i have found it really effective.
+After that start to do the work, start by going into the dir
 
 ```
 cd my-app

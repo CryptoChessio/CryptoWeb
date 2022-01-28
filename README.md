@@ -12,6 +12,8 @@ prpbs cen
 
 If you would like to contribute or have question about the project please message me
 
+Then go to the contribute file
+
 email : cryptoch3ss@gmail.com <br>
 discord : @the_arctesian#8968 <br>
 telegram : @TheArctesian <br>

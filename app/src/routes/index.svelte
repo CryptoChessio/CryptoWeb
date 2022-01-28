@@ -5,12 +5,6 @@
 <script>
 	import hero from '../Assets/Pages/hero-bg.jpeg';
 	import chessB from '../Assets/Pages/chessB.png';
-	let y = 0;
-	//if y is more than 0, then scroll to 25
-	$: console.log(y);
-	if (y < 80) {
-		y = 80;
-	}
 </script>
 
 <style lang="scss">

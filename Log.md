@@ -11,10 +11,13 @@ Format:
 <br>
 <strong>Date: </strong>  <em>DD/MM/YY</em> 
 <br>
-<strong>Description: </strong> <em>Words here</em>
+<strong>Goal: </strong> <em>A small list of goals for the sessions</em>
+<br>
+<strong>Description: </strong> <em>What actually happened</em>
 
 <hr>
-
+I didn't implement the goals this till around the end of jan so if your look at this please add the goals in 
+<hr>
 <strong>Name: </strong>
 Arctesian
 <br>
@@ -181,5 +184,21 @@ Arctesian
 28/1/2022
 <br>
 <strong>Description: </strong> Cleaning index page was my goal but I kinda just had to fix ts errors and set up the ts server
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 00:00 - 1:00
+<br>
+<strong>Date: </strong>
+29/1/2022
+<br>
+<strong>Goal: </strong> Ok new way of making my log file but I am going to try list my goals before I get into this. So for this one I want to make my NFT marketplace after the recent opensea shit
+</br>
+<strong>Description: </strong>
+Ok I inited hardhat then kinda got stuck cuz um infura is not free anymore for polygon so i cant really do shit so I am looking for a replacement
 
 <hr>

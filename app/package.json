@@ -14,10 +14,10 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0-next.17",
 		"@sveltejs/kit": "^1.0.0-next.247",
-		"@typescript-eslint/eslint-plugin": "^4.31.1",
-		"@typescript-eslint/parser": "^4.31.1",
+		"@typescript-eslint/eslint-plugin": "^5.10.1",
+		"@typescript-eslint/parser": "^5.10.1",
 		"autoprefixer": "^10.4.2",
-		"eslint": "^7.32.0",
+		"eslint": "^8.7.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
 		"postcss": "^8.4.5",
@@ -33,10 +33,19 @@
 	"type": "module",
 	"dependencies": {
 		"@lukeed/uuid": "^2.0.0",
+		"@nomiclabs/hardhat-ethers": "^2.0.4",
+		"@nomiclabs/hardhat-waffle": "^2.0.2",
+		"@openzeppelin/contracts": "^4.4.2",
+		"axios": "^0.25.0",
+		"chai": "^4.3.6",
 		"cookie": "^0.4.1",
+		"ethereum-waffle": "^3.4.0",
 		"ethers": "^5.5.3",
+		"hardhat": "^2.8.3",
+		"ipfs-http-client": "^56.0.0",
 		"node-sass": "^7.0.1",
 		"sass": "^1.49.0",
-		"tailwind": "^4.0.0"
+		"tailwind": "^4.0.0",
+		"web3modal": "^1.9.5"
 	}
 }
