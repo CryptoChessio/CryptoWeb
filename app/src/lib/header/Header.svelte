@@ -30,7 +30,7 @@
 		top: 0;
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
-		border-top: var(--size) solid #ffffff;
+		border-top: var(--size) solid #000000;
 	}
 
 	nav a {
@@ -44,18 +44,32 @@
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
-		transition: all 0.3s ease-in-out;
 	}
 
 	.link:hover {
-		color: #ffd519;
+		/* Fallback: Set a background color. */
+		background-color: red;
+
+		/* Create the gradient. */
+		background-image: linear-gradient(180deg, #ff2a2a, #ffa958);
+
+		/* Set the background size and repeat properties. */
+		background-size: 100%;
+		background-repeat: repeat;
+
+		/* Use the text as a mask for the background. */
+		/* This will show the gradient as a text color rather than element bg. */
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
 	}
 
 	nav {
 		background: var(--background);
 		background-size: contain;
 		transition: all 0.3s ease-in-out;
-		border-bottom: #a0a0a0 solid 4px;
+		border-bottom: #000000 solid 4px;
 		height: 10vh;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -63,8 +77,6 @@
 </style>
 
 <header>
-	<div class="corner" />
-
 	<nav>
 
 		<ul>
@@ -89,5 +101,4 @@
 		</ul>
 	</nav>
 
-	<div class="corner" />
 </header>

@@ -19,25 +19,26 @@
 	th {
 		border: 1px solid black;
 		color: white;
+		border-radius: 1rem;
 	}
 	th:nth-child(1) {
-		background-color: #95af4c;
+		background-color: #000000;
 	}
 	th:nth-child(2) {
-		background-color: #af904c;
+		background-color: #ffffff;
+		color: #000000;
 	}
 	th:nth-child(3) {
-		background-color: #af6b4c;
-	}
-	th:nth-child(3) {
-		background-color: #a74caf;
+		background-color: #000000;
 	}
 	th:nth-child(4) {
-		background-color: #724caf;
+		background-color: #ffffff;
+		color: #000000;
 	}
 	th:nth-child(5) {
-		background-color: #4caf6a;
+		background-color: #000000;
 	}
+
 	table th,
 	table td {
 		border: none !important;
@@ -66,7 +67,7 @@
 	<div class="p-3">
 		<h1 class="text-2xl m-3 text-center tracking-wide">The Meritocratic Standings</h1>
 		<div class="">
-			<table class="table-fixed bg-gray-800 text-center ">
+			<table class="table-auto text-center ">
 				<tr class="">
 					<th>Rank</th>
 					<th>Name</th>
@@ -89,7 +90,7 @@
 					<td>${earned}</td>
 				</tr>
 				<tr class="">
-					<td>1</td>
+					<td>3</td>
 					<td>{name}</td>
 					<td>{played}</td>
 					<td>{win}%</td>

@@ -9772,6 +9772,11 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.4:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
+svelte-typewriter@^3.0.0-alpha.9:
+  version "3.0.0-alpha.9"
+  resolved "https://registry.yarnpkg.com/svelte-typewriter/-/svelte-typewriter-3.0.0-alpha.9.tgz#a9e8e9a62f8528b5d4ea334b3d507112dc1c83fa"
+  integrity sha512-qT/Ar+d6Qp/mv1m/XNU/Upuwk7NFqMauvGHWgpmhwtXYAW8ykVIpsDyIwpqk0B78DSlvyXkN9KPCxtr5C2bngw==
+
 svelte@^3.44.0:
   version "3.46.3"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.3.tgz#31202b0c795f276726d95b648b6dd413116257ac"

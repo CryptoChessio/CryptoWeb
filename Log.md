@@ -202,3 +202,21 @@ Arctesian
 Ok I inited hardhat then kinda got stuck cuz um infura is not free anymore for polygon so i cant really do shit so I am looking for a replacement
 
 <hr>
+
+
+<hr>
+
+<strong>Name: </strong>
+Arctesian
+<br>
+
+<strong>Time: </strong> 19:00 - 22:40
+<br>
+<strong>Date: </strong>
+29/1/2022
+<br>
+<strong>Goal: </strong> Clean
+</br>
+<strong>Description: </strong>
+Kinda got rid of colors and stuff
+<hr>

@@ -5,6 +5,8 @@
 <script>
 	import hero from '../Assets/Pages/hero-bg.jpeg';
 	import chessB from '../Assets/Pages/chessB.png';
+	import Typewriter from 'svelte-typewriter';
+	let y;
 </script>
 
 <style lang="scss">
@@ -52,7 +54,6 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		justify-content: center;
 		flex-direction: column;
 	}
 
@@ -66,7 +67,7 @@
 		font-family: 'Inter', sans-serif;
 	}
 
-	h1:nth-child(2) {
+	.h1:nth-child(2) {
 		position: absolute;
 		background-color: #fff;
 		color: #000;
@@ -110,13 +111,17 @@
 
 	<div class="hero text-center items-center justify-center flex">
 		<img src={chessB} class="hero-img blur-sm" alt="hero-bg" />
-		<div>
-			<h1>Chess for the masses</h1>
-			<p>Combine your Chess skills and your crypto capital to earn gains</p>
+		<div class="w-full h-full">
+			<div class="flex text-center h-1/2 justify-center content-center ">
+				<Typewriter loop interval={50}>
+					<h1 class="content-center justify-center text-4xl">
+						Combine a 1,400 year old game with the worlds newest technology
+					</h1>
+				</Typewriter>
+			</div>
+			<div class="flex">
+				<h1>hello world</h1>
+			</div>
 		</div>
 	</div>
-	<br />
-	<br />
-	<br />
-	<br />
 </section>

@@ -45,6 +45,7 @@
 		"ipfs-http-client": "^56.0.0",
 		"node-sass": "^7.0.1",
 		"sass": "^1.49.0",
+		"svelte-typewriter": "^3.0.0-alpha.9",
 		"tailwind": "^4.0.0",
 		"web3modal": "^1.9.5"
 	}

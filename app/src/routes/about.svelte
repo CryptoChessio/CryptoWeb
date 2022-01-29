@@ -29,7 +29,7 @@
 		border-radius: 1rem;
 	}
 	.section {
-		width: 100%;
+		width: 100vw;
 		height: 100vh;
 		display: flex;
 		justify-content: center;
@@ -48,13 +48,16 @@
 		width: 50vw;
 		padding: 1rem;
 		border-radius: 1rem;
-		background-color: #48a0d3;
+		background-color: #000000;
+		color: white;
+
 		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 		transition: all 0.2s ease-in-out;
 	}
 
 	.Item:nth-child(2) {
-		background-color: #4879d3;
+		background-color: #ffffff;
+		color: #000000;
 	}
 
 	.bigone {
@@ -141,11 +144,11 @@
 			</div>
 		</div>
 
-		<div class="bigone">
-			<div class="list-none text-center items-center flex">
+		<div class="bigone section">
+			<div class="list-none text-center items-center flex m-auto">
 				<div
 					class="bg-gradient-to-r from-yellow-500 to-yellow-200 rounded-lg p-5 m-2 duration-700
-					ease-in-out hover:-rotate-3 hover:scale-110 h-48">
+					ease-in-out hover:-rotate-3 hover:scale-110 w-1/4 h-48">
 					<img
 						src={DAI}
 						alt="DAI"
@@ -159,7 +162,7 @@
 				</div>
 				<div
 					class="bg-gradient-to-r from-indigo-400 to-indigo-800 rounded-lg p-5 m-2 shadow-xl
-					duration-700 ease-in-out hover:scale-110 h-48">
+					duration-700 ease-in-out hover:scale-110 w-1/4 h-48">
 					<img
 						src={MATIC}
 						alt="polygon"
@@ -174,7 +177,7 @@
 				</div>
 				<div
 					class="bg-gradient-to-r from-orange-500 to-violet-700 rounded-lg p-5 m-2 shadow-xl
-					duration-700 ease-in-out hover:rotate-3 hover:scale-110 h-48">
+					duration-700 ease-in-out hover:rotate-3 hover:scale-110 w-1/4 h-48">
 					<img src={BAT} alt="BAT" width={50} class="m-auto fill-white" />
 					<p>
 						<strong class="text-xl">BAT</strong>
@@ -184,11 +187,11 @@
 				</div>
 			</div>
 			<div class="list-none text-center items-center justify-center flex">
-				<div class="m-10">
+				<div class="m-10 w-1/4">
 					<h1>DAI</h1>
 					<p>A decentralized stable coin that has stood the test of time</p>
 				</div>
-				<div class="m-10">
+				<div class="m-10 w-1/4">
 					<h1>BAT</h1>
 					<p>
 						The utility token of the brave browser, everyone should be using this as I would love to
@@ -196,7 +199,7 @@
 						brave browser give user tokens for viewing adds on their browser.
 					</p>
 				</div>
-				<div class="m-10">
+				<div class="m-10 w-1/4">
 					<h1>MATIC</h1>
 					<p>Polygon utility token, enough said</p>
 				</div>

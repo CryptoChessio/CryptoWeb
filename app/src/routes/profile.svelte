@@ -51,8 +51,8 @@
 		</div>
 	{:else}
 		<div
-			class="rounded-xl m-auto flex-col p-3 w-2/6 border border-emerald-300 border-double border-4
-			flex text-center items-center bg-blue-400 justify-center">
+			class="rounded-xl m-auto flex-col p-3 w-2/6 border border-slate-300 border-double border-4
+			flex text-center items-center bg-slate-900 justify-center">
 			<p class="m-3">Please login.</p>
 			<button
 				class="bg-blue-500 duration-700 ease-in-out hover:bg-blue-700 text-white text-center py-2
