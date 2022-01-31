@@ -79,13 +79,12 @@
 			</div>
 			<div class="Item title">
 				<p>
-					This is a GameFi, where players can "gain" game where you can "stake" crypto during a game
-					of chess. The winner of the game gets the combined yield of the stake. I am not allowed to
-					use the b word because it might be illegal in the future. The chess game has
-					<strong>no check checking</strong>
-					but supports all special moves. This is because I feel like it is funny to blunder when
-					money is on the line. A 4-player game mode is in development and I would love to implement
-					5D (4D) chess in the future as well.
+					BlockChess is a Web3 chess game. The premiss obviously stems around chess, players can
+					either leverage then crypto in our staking game in which you play against other players to
+					earn rewards. If you are less flush on cash, you can play against other players and earn
+					the BlockChess token as a reward for winning. These tokens can be spent on NFT's which
+					will alter you playing environment and the game itself, as well as allow user to
+					participate in the DAO governance of the protocol.
 				</p>
 			</div>
 			<br />
