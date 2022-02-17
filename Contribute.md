@@ -59,28 +59,40 @@ After that start to do the work, start by going into the dir
 cd my-app
 ```
 
-make sure you have yarn and node installed
+make sure you have node and npm installed with
+```
+node -v && npm -v 
 
+```
+thene install yarn with 
+```
+npm i -g yarn # if mac will need to use sudo
+```
+then make sure your current dir is in my-app you can check that with 
+```
+pwd
+```
+then proceeded with
 ```
 yarn install
 ```
-
+this install all the pkg continue to build the project
 ```
 yarn run build
 ```
-
+finally open the project in you web browser with
 ```
 yarn run dev --open
 ```
-
 Then begin to do your editing in the files, the file dir include the main page files in src and the components in lib.
+<hr>
 
 to add any packages use
-
 ```
 yard add <package>
 ```
 
+<hr>
 When your done do the standard
 
 ```
