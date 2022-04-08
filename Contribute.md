@@ -1,6 +1,6 @@
 # Contribute
 
-## Thank you for wanting to contribute:
+Thank you for wanting to contribute:
 
 Here are the steps to follow, fist fork the repo, then in your terminal (replace your user name with your username but it will usually come when you fork it)
 
